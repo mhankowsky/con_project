@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAV9jHxBwu5KvYn3Cl1J8oUzYStLDUdl8&sensor=true">
+        </script>
+        <script type="text/javascript" src="googlemaps.js"></script>
+        
+        <title>CorruptOrNot</title>
+    </head>
+    
+    <body>
+        <div class = "mainHeader">
+            
+            <!-- Logo -->
+            <div id="mainLogo">
+                <a href="index.html"><img src="Logo.png" width=70 height=60 /></a>
+            </div>
+            
+            <!-- Search Bar -->
+            <div id="mainSearchbar"> 
+                <input type="search" placeholder="Name/Location/Organization/Person" size=50>
+                <input type="submit" value="Search">
+            </div>
+            
+            <!-- Login -->
+            <div id="mainLogin">
+                <input type="button" value="Add Organization (temp)" onclick="window.location='organizationform.html'" />
+                <input type="button" value="Add Employee (temp)" onclick="window.location='employeeform.html'" />
+                <input type="button" value="Login" onclick="window.location='userlogin.html'" />
+            </div>
+            
+        </div>
+        
+        <div class = "mainMap">
+            
+            <!-- Google Maps -->
+            <div id="googlemaps"></div>
+            
+        </div>
+        
+        <!-- List of Top 10 -->
+        <div class = "mainTopRated">
+            
+            <p><b>Top 5 Corrupt:</b></p>
+            
+            <div class="mainTopRatedList" id="mainTopCorrupt">
+                <div class="mainTopRatedImage" id="mainTopCorruptImage">
+                    <p>Image</p>
+                </div>
+                <div class="mainTopRatedInfo" id="mainTopCorruptInfo">
+                    <p>Name</p>
+                </div>
+                <div class="mainTopRatedMeter" id="mainTopCorruptMeter">
+                    <p>Meter</p>
+                </div>
+            </div>
+            
+            <p><b>Top 5 Honest:</b></p>
+            
+            <div class="mainTopRatedList" id="mainTopHonest">
+                <div class="mainTopRatedImage" id="mainTopHonestImage">
+                    <p>Image</p>
+                </div>
+                <div class="mainTopRatedInfo" id="mainTopHonestInfo">
+                    <p>Name</p>
+                </div>
+                <div class="mainTopRatedMeter" id="mainTopHonestMeter">
+                    <p>Meter</p>
+                </div>
+            </div>
+            
+        </div>
+        
+    </body>
+    
+</html>

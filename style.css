@@ -1,0 +1,209 @@
+/* index.html */
+
+#indexMain
+{
+    
+}
+
+#indexLogo
+{
+    height:150px;
+    padding-top: 15%;
+}
+
+#indexSearchbar
+{
+    height:50px;
+}
+
+/* mainpage.html */
+
+.mainHeader
+{
+    height: 60px;
+    width: 100%;
+}
+
+#mainLogo
+{
+    float: left;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+#mainSearchbar
+{
+    float: left;
+    position: relative;
+    margin-top: 15px;
+}
+
+#mainLogin
+{
+    float: right;
+    position: relative;
+    margin-top: 15px;
+}
+
+.mainMap
+{
+    float: left;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#googlemaps
+{
+    height: 100%;
+    width: 100%;
+}
+
+.mainTopRated
+{
+    float: right;
+    position: relative;
+    height: 100%;
+    width: 300px;
+    display: block;
+    background-color: #F6F6F6;
+}
+
+.mainTopRatedList
+{
+    position: relative;
+}
+
+.mainTopRatedImage
+{
+    float: left;
+    width: 60px;
+}
+
+.mainTopRatedInfo
+{
+    float: left;
+    width: 180px;
+}
+
+.mainTopRatedMeter
+{
+    float: right;
+    width: 60px;
+}
+
+/* organizationform.html */
+
+/* employeeform.html */
+
+/* organizationprofile.html */
+
+#organizationprofileImage
+{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    text-align:center;
+    margin: 0px 0px 0px 0px;
+}
+
+#organizationprofileInfo
+{
+    position: absolute;
+    height: 120px;
+    width: 180px;
+    text-align:center;
+    margin: 0px 0px 0px 160px;
+}
+
+#organizationprofilemeter
+{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    text-align:center;
+    margin: 150px 0px 0px 0px;
+}
+
+#organizationprofileemployeelist
+{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    text-align:center;
+    margin: 270px 0px 0px 0px;
+}
+
+.organizationprofileEmployeeImage
+{
+    float: left;
+    width: 60px;
+}
+
+.organizationprofileEmployeeInfo
+{
+    float: left;
+    width: 180px;
+}
+
+.organizationprofileEmployeeMeter
+{
+    float: right;
+    width: 60px;
+}
+
+#organizationprofilecomments
+{
+    position: absolute;
+    height: 150px;
+    width: 300px;
+    text-align:center;
+    margin: 500px 0px 0px 0px;
+}
+
+/* employeeprofile.html */
+
+#employeeprofileImage
+{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    text-align:center;
+    margin: 0px 0px 0px 0px;
+}
+
+#employeeprofileInfo
+{
+    position: absolute;
+    height: 120px;
+    width: 180px;
+    text-align:center;
+    margin: 0px 0px 0px 160px;
+}
+
+#employeeprofilemeter
+{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    text-align:center;
+    margin: 150px 0px 0px 0px;
+}
+
+#employeeprofilecorruptornot
+{
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    text-align:center;
+    margin: 270px 0px 0px 0px;
+}
+
+#employeeprofilecomments
+{
+    position: absolute;
+    height: 150px;
+    width: 300px;
+    text-align:center;
+    margin: 350px 0px 0px 0px;
+}
