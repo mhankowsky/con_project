@@ -1,3 +1,8 @@
+
+        echo '<style type="text/css">';
+        include 'style.css';
+        echo '</style>';
+
 <!-- List of Top 10 -->
         <div class = "mainTopRated">
             
