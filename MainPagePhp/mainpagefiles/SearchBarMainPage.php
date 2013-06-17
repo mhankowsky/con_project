@@ -1,7 +1,7 @@
 
-			echo '<style type="text/css">';
+			<style type="text/css">
 			include 'style.css';
-			echo '</style>';
+			</style>
 
 <!-- Search Bar -->
             <div id="mainSearchbar"> 

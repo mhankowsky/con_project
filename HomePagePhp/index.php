@@ -2,7 +2,6 @@
 <html>
     
     <head>
-		<?php include('indexpagefiles/Header.php'); ?>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head> 
 

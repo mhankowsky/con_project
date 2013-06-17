@@ -1,5 +1,5 @@
-			echo '<style type="text/css">';
+			<style type="text/css">
 			include 'style.css';
-			echo '</style>';
+			</style>
 <!-- Google Maps -->
             <div id="googlemaps"></div>

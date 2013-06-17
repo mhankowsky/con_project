@@ -1,6 +1,6 @@
-			echo '<style type="text/css">';
+			<style type="text/css">
 			include 'style.css';
-			echo '</style>';
+			</style>
 			<!--Add Organization & Add Employee-->
 			<div id="addOrgAndEmp">
                 <input type="button" value="Add Organization (temp)" onclick="window.location='organizationform.php'" />
