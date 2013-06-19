@@ -6,4 +6,3 @@ include 'style.css';
 <div class = "mainMap">
     <!-- Google Maps -->
     <div id="googlemaps"></div> 
-</div>
