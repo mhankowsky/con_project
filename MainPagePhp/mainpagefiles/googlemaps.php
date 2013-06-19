@@ -5,4 +5,4 @@ include 'style.css';
 <!-- Maps -->
 <div class = "mainMap">
     <!-- Google Maps -->
-    <div id="googlemaps"></div> 
+<div id="googlemaps"></div> 
