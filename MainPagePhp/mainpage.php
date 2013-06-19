@@ -10,8 +10,6 @@
         
         <script type="text/javascript" src="mainpagefiles/facebooklogin.js"></script>
         
-        
-    
     </head>
     
     <body id = mainBody>
