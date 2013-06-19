@@ -1,4 +1,3 @@
-
 <html>
     
     <head>
@@ -11,22 +10,25 @@
         
         <script type="text/javascript" src="mainpagefiles/facebooklogin.js"></script>
         
-        <?php include('mainpagefiles/Header.php'); ?>
+        
     
     </head>
     
-    <body>
-        <!-- Logo -->
-        <?php include('mainpagefiles/logo.php'); ?>
+    <body id = mainBody>
         
-        <!-- Search Bar -->
-        <?php include('mainpagefiles/SearchBarMainPage.php'); ?>
-        
-        <!--Fb Login -->
-        <?php include('mainpagefiles/FbLogin.php'); ?>
-
-        <!--Add Organization & Add Employee-->
-        <?php include('mainpagefiles/addOrgAndEmp.php'); ?>
+        <div class = mainHeader>
+            <!-- Logo -->
+            <?php include('mainpagefiles/logo.php'); ?>
+            
+            <!-- Search Bar -->
+            <?php include('mainpagefiles/SearchBarMainPage.php'); ?>
+            
+            <!--Fb Login -->
+            <?php include('mainpagefiles/FbLogin.php'); ?>
+            
+            <!--Add Organization & Add Employee-->
+            <?php include('mainpagefiles/addOrgAndEmp.php'); ?>
+        </div>
         
         <!-- Google Maps -->
         <?php include('mainpagefiles/googlemaps.php'); ?>
