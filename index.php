@@ -6,8 +6,12 @@
     </head> 
 
     <body>
-	<?php include('indexpagefiles/logo.php'); ?>
-	<?php include('indexpagefiles/Searchbar.php'); ?>
+	<div id = "indexMain">
+	    <center>
+		<?php include('indexpagefiles/logo.php'); ?>
+		<?php include('indexpagefiles/Searchbar.php'); ?>
+	    </center>
+	</div>
     </body>
 
 </html>

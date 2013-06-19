@@ -14,15 +14,7 @@ body
 
 /* classes */
 
-.searchbar
-{
-    margin-left: 5px;
-    margin-right: -60px;
-    margin-top: 1px;
-    border: 0px;
-    height: 50px;
-    width: 97.5%;
-}
+
 
 /* index.html */
 
@@ -34,12 +26,19 @@ body
 #indexLogo
 {
     height:150px;
-    padding-top: 15%;
+    padding-top:10%;
+    padding-right:30px;
+}
+
+#indexSearchbarDisplay
+{
+    padding-top:60px;
+    height:50px;
 }
 
 #indexSearchbar
 {
-    height:50px;
+    
 }
 
 /* mainpage.html */
@@ -61,7 +60,7 @@ body
     padding-right: 10px;
 }
 
-#mainSearchbar
+#mainSearchbarDisplay
 {
     float: left;
     position: relative;
@@ -70,6 +69,16 @@ body
     width: 40%;
     border: 2px inset;
     border-radius: 10px;
+}
+
+#mainSearchbar
+{
+    margin-left: 5px;
+    margin-right: -60px;
+    margin-top: 1px;
+    border: 0px;
+    height: 50px;
+    width: 97.5%;
 }
 
 #addOrgAndEmp /*temp*/

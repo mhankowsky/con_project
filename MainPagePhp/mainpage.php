@@ -10,6 +10,8 @@
         
         <script type="text/javascript" src="mainpagefiles/facebooklogin.js"></script>
         
+        <title>CorruptOrNot</title>
+        
     </head>
     
     <body id = mainBody>

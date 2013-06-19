@@ -4,5 +4,5 @@ include 'style.css';
 
 <!-- Logo -->
 <div id="indexLogo">
-        <img src="Logo.png" width=140 height=120 alt="Image unable to load"/>
+        <img src="Logo.jpg" width=200 height=200 alt="Image unable to load"/>
 </div>
