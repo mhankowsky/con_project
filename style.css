@@ -74,16 +74,17 @@ body
 
 #addOrgAndEmp /*temp*/
 {
-    float: right;
+    float: left;
     position: relative;
     margin-top: 15px;
 }
 
 #mainLogin
 {
+    /*left: 100%;
+    position: absolute;*/
     float: right;
     position: relative;
-    margin-top: 0px;
 }
 
 .mainMap
