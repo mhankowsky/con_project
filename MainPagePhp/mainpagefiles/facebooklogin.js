@@ -1,4 +1,3 @@
-
   window.fbAsyncInit = function() {
   FB.init({
     appId      : '170441036459109', // App ID
@@ -53,6 +52,14 @@
   function testAPI() {
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
-      console.log('Good to see you, ' + response.name + '.' + response.user_id + '.' + response.id + '.');
+    var fbuserid = response.id;
+    
+    $.ajax({
+        type:"POST",
+        url: "../mainpage.php",
+        data: {fbuserid: fbuserid},
+        
+    });    
+    console.log('Good to see you, ' + '.' + response.id + '.');    
     });
   }

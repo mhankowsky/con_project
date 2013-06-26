@@ -10,6 +10,8 @@
         
         <script type="text/javascript" src="mainpagefiles/facebooklogin.js"></script>
         
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+        
         <title>CorruptOrNot</title>
         
     </head>
@@ -35,7 +37,32 @@
         
         <!-- List of Top 10 -->
         <?php include('mainpagefiles/listOfConPpl.php'); ?>
-        
+
+<?php 
+        $fbuserid = $_POST['fbuserid'];             
+            $createdate= date('Y-m-d H:i:s');
+        $testingano = 1;
+        // Create connection
+        $con=mysql_connect("localhost","deltal6","QazWsx123!@#");
+
+        // Check connection
+        if (mysqli_connect_errno($con))
+          {
+          echo "Failed to connect to MySQL: " . mysqli_connect_error();
+          }
+        else
+          {
+           // echo "Connection suceessful.";
+          }
+
+        mysql_select_db("deltal6_con") or die ('Unable to select database!');
+
+        $sql= "INSERT INTO userInfo(userId, anonymous, timeRegisteration) VALUES ('$fbuserid','$testingano','$createdate')";
+        $result = mysql_query($sql) or die (mysql_error());
+            
+?>        
+
+
     </body>
     
 </html>
