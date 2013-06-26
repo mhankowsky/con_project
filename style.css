@@ -14,7 +14,16 @@ body
 
 /* classes */
 
-
+.searchbar_submit
+{
+    background: url("search.jpg") no-repeat scroll 0 0 transparent;
+    /*background: url("search.jpg") no-repeat scroll 0 0 transparent;*/
+    border: 0 none;
+    cursor: pointer;
+   /* margin-left:20px;*/
+    height: 40px;
+    width: 40px;
+}
 
 /* index.html */
 
@@ -25,9 +34,9 @@ body
 
 #indexLogo
 {
-    height:150px;
     padding-top:10%;
     padding-right:30px;
+    height:150px;
 }
 
 #indexSearchbarDisplay
@@ -38,7 +47,7 @@ body
 
 #indexSearchbar
 {
-    
+    padding-top: 60px;
 }
 
 /* mainpage.html */
@@ -64,7 +73,7 @@ body
 {
     float: left;
     position: relative;
-    margin-top: 0px;
+    margin-top: 2px;
     height: 55px;
     width: 40%;
     border: 2px inset;
@@ -74,26 +83,30 @@ body
 #mainSearchbar
 {
     margin-left: 5px;
-    margin-right: -60px;
+    margin-right: -50px;
     margin-top: 1px;
+    padding-right: 50px;
     border: 0px;
+    position: static;
     height: 50px;
-    width: 97.5%;
+    width: 97%;
+    font-size: 16px;
+    font-family: Arial,Helvetica,sans-serif;
 }
 
 #addOrgAndEmp /*temp*/
 {
     float: left;
     position: relative;
-    margin-top: 15px;
+    margin-left: 30px;
+    margin-top: 25px;
 }
 
 #mainLogin
 {
-    /*left: 100%;
-    position: absolute;*/
     float: right;
     position: relative;
+    margin-top: 15px;
 }
 
 .mainMap
