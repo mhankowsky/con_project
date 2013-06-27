@@ -3,7 +3,7 @@ include 'style.css';
 </style>
 
 <!-- Search Bar -->
-<div id="mainSearchbarDisplay">
-    <input id="mainSearchbar" type="search" placeholder="Name of Organization/Person" alt="Search bar Unable to load">
-    <input class="searchbar_submit" type="submit" value="" >
+<div class="searchbarDisplay" id="mainSearchbarDisplay">
+    <input class="searchbar" id="mainSearchbar" type="search" placeholder="Name of Organization/Person" alt="Search bar Unable to load">
+    <input class="searchbarSubmit" type="submit" value="" >
 </div>
