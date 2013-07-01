@@ -35,14 +35,14 @@
 
 		mysql_select_db("deltal6_con") or die ('Unable to select database!');
 
-		$sql= "INSERT INTO employeeCreated(orgId,orgName,empName,designation,img) VALUES ('$orgId','$orgname','$empname','$empde','$img')";
+		$sql= "INSERT INTO employeeProfile(orgId,orgName,empName,designation,img) VALUES ('$orgId','$orgname','$empname','$empde','$img')";
 		$result = mysql_query($sql) or die (mysql_error());
 
 		//echo $result;
 
 		echo 'Profile submitted successfully' ;
 
-		$empsql = "SELECT * FROM `employeeCreated` ";
+		$empsql = "SELECT * FROM `employeeProfile` ";
 		$result = mysql_query($empsql) or die (mysql_error());
 		//echo $result;
 

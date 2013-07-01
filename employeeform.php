@@ -10,7 +10,7 @@
     <body>
         <div id = "employeeform">
             <!-- New Employee Profile Form -->
-            <form action="employee1.php" method="post">
+            <form action="employee.php" method="post">
                 Employee Name: <input type="text" name="employeefirstname"><br>
                 Organization Name: <input type="text" name="employeeorganization"><br>
                 Designation: <input type="text" name="employeedesignation"><br> <!-- TO DO: dropdown based on organization -->
